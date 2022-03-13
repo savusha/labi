@@ -1,17 +1,98 @@
 <!DOCTYPE html> 
-<html lang="ru"> 
+<html lang="en"> 
 
 <head> 
     <meta charset="UTF-8"> 
-    <title> Пример простой страницы html</title> 
+    <title>Sagintayev Dias</title> 
+    <link rel="stylesheet" href="css/style.css">
 </head> 
 
 <body> 
-    <div> 
-        Меня зовут Сагинтаев Диас, я студент группы 21-ВТТ-1. 
-    </div> 
-    <div> 
-        Я изучаю интернет-технологии. 
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__link">
+                        <a href="#profile">PROFILE</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#education">EDUCATION</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#experience">EXPERIENCE</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="header__title">Sagintayev Dias</h1>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="wrapper">
+            <aside class="aside">
+                <div class="aside__img">
+                    <img src="img/avatar.png">
+                </div>
+                <div class="line"></div>
+                <table class="aside__table table">
+                    <tr class="table__row">
+                        <th class="table__title">Name</th>
+                        <th class="table__title">Lastname</th>
+                    </tr> 
+                    <tr class="table__row">
+                        <td class="table__data">Dias</td>
+                        <td class="table__data">Sagintayev</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__title">Age</th>
+                        <th class="table__title">Location</th>
+                    </tr> 
+                    <tr class="table__row">
+                        <td class="table__data">19</td>
+                        <td class="table__data">Kazakhstan</td>
+                    </tr>
+                </table>
+                <div class="line"></div>
+                <div class="aside__skills">
+                    <h4 class="aside__title">My skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="aside__mail">
+                    <h4 class="aside__title">My mail</h4>
+                    <a class="aside__link" href="mailto:savushkin1337@yandex.kz">savushkin1337@yandex.kz</a>
+                </div>
+            </aside>
+
+            <main class="main">
+                <article id="profile">
+                    <h2 class="main__title">PROFILE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae deserunt obcaecati nemo, ullam cumque nostrum excepturi harum reprehenderit perspiciatis ea perferendis voluptate? Facilis delectus itaque rem rerum quod, dolorum iusto harum soluta excepturi dolore maxime adipisci amet architecto qui quae illum nam? </p>
+                </article>
+                <article id="education">
+                    <h2 class="main__title">EDUCATION</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae amet corporis voluptatibus maxime voluptas nihil totam dolor sequi iusto tempora quisquam doloribus eveniet culpa, repudiandae mollitia debitis facilis atque iure ullam porro praesentium.  </p>
+                </article>
+                <article id="experience">
+                    <h2 class="main__title">EXPERIENCE</h2>
+                    <h3 class="main__subtitle">JOB #1</h3>
+                    <p class="main__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deleniti facilis exercitationem voluptate quos ipsam porro expedita ipsa libero tempore itaque aut, necessitatibus, repudiandae, suscipit veritatis officia eaque odit et.
+                    </p>
+                    <h3 class="main__subtitle">JOB #2</h3>
+                    <p class="main__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sunt culpa praesentium tempora sed assumenda consequatur autem temporibus ipsam beatae eius, voluptates voluptatem mollitia esse, sint sit rerum. Corrupti, praesentium.
+                    </p>
+                </article>            
+
+            </main>
+        </div>
+
     </div>
 </body> 
 
